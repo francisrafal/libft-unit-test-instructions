@@ -2,7 +2,7 @@
 
 The repository https://github.com/alelievr/libft-unit-test is a great resource for automatically testing and benchmarking your libft library. This tutorial should help you with installing and using these tests. 
 
-## Before Installing The Tests:
+## Before Installing The Tests
 1. You should already have all the required files (ft_*.c, libft.h, Makefile) in your libft directory, even if your .c files or libft.h are empty.
 2. Your Makefile to create libft.a should already be working. I am not allowed to share working code here but what your Makefile should do is:
   - Create .o files from your .c files
