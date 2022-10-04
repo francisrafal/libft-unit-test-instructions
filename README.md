@@ -1,6 +1,6 @@
-# How To Use libft-unit-test for the 42 Vienna Core Curriculum
+# How To Use libft-unit-test For The 42 Vienna Core Curriculum
 
-The repository https://github.com/alelievr/libft-unit-test is a great resource for automatically testing and benchmarking your libft library. This guide should help you with installing and using these tests. 
+The repository https://github.com/alelievr/libft-unit-test is a great resource for automatically testing and benchmarking your libft library. This tutorial should help you with installing and using these tests. 
 
 ## Prerequisites for the tests:
 1. You should already have all the required files (ft_*.c, libft.h, Makefile) in your libft directory, even if your .c files or libft.h are empty.
