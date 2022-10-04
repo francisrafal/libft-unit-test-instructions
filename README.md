@@ -18,9 +18,37 @@ A good resource to learn about Makefiles is www.makefiletutorial.com and https:/
 git clone https://github.com/alelievr/libft-unit-test.git
 ```
 
-Your folder structure should now look like this now:
+Your folder structure should now look like this:
 ```
 .
 |- libft/
 |- libft-unit-tests/
 ```
+3. Edit libft/Makefile and add the following rule:
+```
+so:
+	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
+	gcc -nostartfiles -shared -o libft.so $(OBJ)
+```
+Change `$(CC)`, `$(SRC)` and `$(OBJ)` to the variable names you used for your compiler, your source and object files in your Makefile. You don't need to change `$(CFLAGS)` even if you haven't defined this variable.
+
+4. Change to the libft-unit-tests directory
+5. Complete the installation by running
+
+```
+make
+```
+Your tests should be correctly installed now!
+
+## Running the tests
+1. Go to the libft-unit-tests directory and run
+
+```
+make f
+```
+You should now see your test results!
+
+For more information on the test results visit the official documentation for libft-unit-tests: https://github.com/alelievr/libft-unit-test#usage
+
+## Questions?
+Write me on Discord: Francis Rafal#1334
