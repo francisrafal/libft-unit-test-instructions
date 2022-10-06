@@ -48,6 +48,11 @@ make f
 ```
 You should now see your test results!
 
+If you want to benchmark your functions against the system library run
+```
+make b
+```
+
 For more information on the test results visit the official documentation for libft-unit-tests: https://github.com/alelievr/libft-unit-test#usage
 
 ## Questions?
